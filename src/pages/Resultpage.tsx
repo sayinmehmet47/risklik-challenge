@@ -7,9 +7,7 @@ import { ProgressContainer, Wrapper } from '../shared/styles/styles';
 export default function ResultPage() {
   const status = useSelector((state: any) => state.synonyms.status.state);
   const results = useSelector((state: any) => state.synonyms.results.synonyms);
-  console.log(results?.length > 0);
 
-  console.log(results);
   const [value, setValue] = useState(0);
 
   useEffect(() => {

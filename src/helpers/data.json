@@ -1,0 +1,11 @@
+{
+    "user_id": 2222,
+    "project_id": 4444,
+    "mesh_terms": [
+        "Tryptophanase"
+    ],
+    "target_type": "intervention",
+    "use_wikipedia": false,
+    "threshold": 50,
+    "is_device": false
+}
